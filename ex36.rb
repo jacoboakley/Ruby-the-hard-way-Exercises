@@ -3,7 +3,7 @@ def start
   puts "You wake up from a nap in your car just before"
   puts "you walk into the store to pick up some batteries."
   puts "You are approached by a man handing out samples"
-  puts "of lemonade inside while you are shopping."
+  puts "of kool-aid inside while you are shopping."
   puts "--------------------------------------------------"
   puts "Do you take the free sample? yes or no?"
         
@@ -49,7 +49,7 @@ def maze
     door
   elsif (choice.include? "key") || (choice.include? "board")
     puts "---------------------------------------------"
-    puts "As you turn araound a voice in your head says"
+    puts "As you turn around a voice in your head says"
     puts "Perhaps you should take both. And then..."
     puts "---------------------------------------------"
     maze
