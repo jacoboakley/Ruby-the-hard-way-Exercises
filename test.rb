@@ -10,10 +10,10 @@ def maze
   choice = choice.downcase
   
   if (choice.include? "key") && (choice.include? "board")
-    puts "--------asdf-------------------------------------"
+    puts "------------------------------------------------"
     
   elsif choice.include? "both"
-    puts "------------------l;kjl;k---------------------------"
+    puts "----------------------------------------------------"
     
   elsif (choice.include? "key") || (choice.include? "board")
     puts "---------------------------------------------"
